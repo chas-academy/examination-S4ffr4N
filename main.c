@@ -61,7 +61,10 @@ int main() {
             printf("%s\n", names[i]);
         }
     }
-
+    
+    
+    while (getchar() != '\n'); // Clear leftover newline
+    getchar();                 // Wait for Enter, allowing user to see output before exiting
 
 
     return 0;
